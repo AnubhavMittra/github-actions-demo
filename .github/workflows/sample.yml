@@ -50,7 +50,7 @@ jobs:
       url: 'http://localhost:8080/'
     steps:
        - name: Deploy
-         run: echo Deploying to dev env
+         run: echo Deploying to dev env now
        - name: Sleep for 30 seconds
          run: sleep 30
 
