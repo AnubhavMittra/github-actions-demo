@@ -53,5 +53,6 @@ jobs:
 
   deploy-to-prod:
     name: Deploy to production env
+    needs: [build, deploy-to-dev]
     uses: ./.github/workflows/reusable_workflow.yml
     secrets: inherit  
